@@ -1,0 +1,11 @@
+.promise-comp{
+    color: #5EE1F3;
+    background-color: pink;
+    padding: 2%; 
+    margin: 1%;  
+}
+
+.promise-comp li {
+    list-style: none;
+    color: blue; 
+}

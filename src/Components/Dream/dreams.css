@@ -1,0 +1,13 @@
+.myDreams{
+    background-color: hsl(187, 86%, 66%);
+    padding: 2%; 
+    margin: 1%; 
+}
+
+.dream-header{
+    color: pink; 
+}
+
+.myDreams li{
+    list-style: none;
+}

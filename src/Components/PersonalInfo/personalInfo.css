@@ -1,0 +1,11 @@
+.personalInfo{
+    background-color: pink;
+    padding: 2%; 
+    text-align: center;
+    margin: 1%; 
+}
+
+.personalInfo button {
+    background-color: palegreen; 
+    color: blue;  
+}
