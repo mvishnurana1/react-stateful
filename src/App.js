@@ -4,6 +4,7 @@ import Dreams from './Components/Dream/dreams';
 import NewGoal from './Components/NewGoal/NewGoal'; 
 import Promise from './Components/Promise/Promise'; 
 import PersonalInfo from './Components/PersonalInfo/personalInfo'; 
+import Emails from './Components/Emails/Emails'; 
 import Button from './Components/Button/button'; 
 
 const App = () => {
@@ -42,12 +43,13 @@ const App = () => {
   return (
     <div>
         {/* onAddGoal is the prop which takes pointer to the function */}
-        <NewGoal onAddGoal = {addNewGoalHandler} />
-        <PersonalInfo newEmail={addEmails} />
-        <Button onClick = {onButtonClickHandler}/>
-        <GoalList goals = {courseGoals}/>
+        <NewGoal onAddGoal = { addNewGoalHandler } />
+        <PersonalInfo newEmail = { addEmails } />
+        <Button onClick = { onButtonClickHandler }/>
+        <GoalList goals = { courseGoals }/>
+        <Emails emails={emails}/>
         <Dreams />
-        <Promise pr = {promises} />
+        <Promise pr = { promises }/>
     </div>
   );
 }
